@@ -1,0 +1,155 @@
+<!--
+SITO ONE-PAGE: index.html
+Dati personalizzati per Francesco Lenzoni
+-->
+
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Francesco Lenzoni — CV & Contatti</title>
+  <meta name="description" content="CV e contatti di Francesco Lenzoni">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    :root{--bg:#0f0f10;--card:#ffffff;--accent:#E3D8C3;--muted:#9b9b9b}
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;background:linear-gradient(180deg,#f6f2ec 0%, #efe9df 100%);color:#111}
+    .container{max-width:980px;margin:36px auto;padding:28px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar img{width:96px;height:96px;border-radius:12px;object-fit:cover}
+    h1{margin:0;font-size:28px;letter-spacing:0.6px}
+    .role{color:var(--muted);margin-top:6px}
+    .actions{margin-left:auto;display:flex;gap:10px}
+    .btn{background:#111;color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn.outline{background:transparent;color:#111;border:2px solid #111}
+
+    main{margin-top:28px;display:grid;grid-template-columns:1fr 320px;gap:28px}
+    .card{background:rgba(255,255,255,0.9);padding:18px;border-radius:14px;box-shadow:0 6px 24px rgba(17,17,17,0.06)}
+    .section{margin-bottom:18px}
+    h2{margin:0 0 10px 0;font-size:18px}
+    p{margin:0 0 10px 0;line-height:1.45}
+    .cv-links{display:flex;gap:10px;flex-wrap:wrap}
+    .skill{display:inline-block;padding:6px 10px;border-radius:999px;background:#f0efe9;margin:6px 6px 0 0;font-size:13px}
+
+    aside{position:relative}
+    .contact-list{display:flex;flex-direction:column;gap:8px}
+    .small{font-size:13px;color:var(--muted)}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:880px){main{grid-template-columns:1fr}header{align-items:flex-start}.actions{margin-left:0;margin-top:10px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar"><img src="foto_cv.jpg" alt="Foto di Francesco Lenzoni"></div>
+      <div>
+        <h1>Francesco Lenzoni</h1>
+        <div class="role">Tecnico di progettazione e Collaudo</div>
+      </div>
+
+      <div class="actions">
+        <a class="btn" href="https://www.linkedin.com/in/francescolenzoni/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn outline" href="#contatti">Contatti</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="card section">
+          <h2>Chi sono</h2>
+          <p>Professionista affidabile e puntuale, sempre orientato al miglioramento personale e alla crescita professionale. Spinto da una forte motivazione, affronto ogni sfida con impegno e determinazione, con l’obiettivo di dare sempre il meglio e contribuire positivamente all’ambiente di lavoro. Attento alle esigenze degli altri, credo nel valore della collaborazione e nell’importanza dell’aiuto reciproco.</p>
+          <div class="cv-links">
+            <a class="btn" href="resume.pdf" download>Scarica CV (PDF)</a>
+            <a class="btn outline" href="mailto:lenzonifrancesco4@gmail.com">Inviami una mail</a>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Esperienze</h2>
+          <div style="margin-bottom:12px">
+            <strong>Tecnico di progettazione e Collaudo — Safety Systems s.r.l</strong>
+            <div class="small">Lug 2024 — Presente</div>
+            <p>Progettazione CAD e programmazione PLC/SCADA, con attività che spaziano dalla lettura delle specifiche alla messa in servizio dei sistemi.</p>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Educazione</h2>
+          <div style="margin-bottom:12px">
+            <strong>Diploma in Telecomunicazioni e Informatica — ITIS Ettore Majorana</strong>
+            <div class="small">2019 — 2024</div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Competenze</h2>
+          <div>
+            <span class="skill">Problem solving</span>
+            <span class="skill">Team-oriented</span>
+            <span class="skill">Flessibilità</span>
+            <span class="skill">Puntualità</span>
+            <span class="skill">Affidabilità</span>
+            <span class="skill">AutoCAD</span>
+            <span class="skill">PLC</span>
+            <span class="skill">SCADA</span>
+          </div>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card section">
+          <h2 id="contatti">Contatti</h2>
+          <div class="contact-list">
+            <div>
+              <div class="small">Email</div>
+              <div><a href="mailto:lenzonifrancesco4@gmail.com">lenzonifrancesco4@gmail.com</a></div>
+            </div>
+
+            <div>
+              <div class="small">Telefono</div>
+              <div><a href="tel:+393318310378">(+39) 331 831 0378</a></div>
+            </div>
+
+            <div>
+              <div class="small">LinkedIn</div>
+              <div><a href="https://www.linkedin.com/in/francescolenzoni/" target="_blank" rel="noopener">Profilo LinkedIn</a></div>
+            </div>
+
+            <div>
+              <div class="small">Località</div>
+              <div>Italia</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Call to action</h2>
+          <p>Vuoi parlare? Scrivimi subito via email o telefono.</p>
+          <a class="btn" href="mailto:lenzonifrancesco4@gmail.com?subject=Contatto%20da%20sito">Contattami</a>
+        </div>
+
+        <div class="card section">
+          <h2>Download</h2>
+          <p class="small">Scarica il mio CV in PDF.</p>
+          <a class="btn outline" href="resume.pdf" download>Scarica PDF</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Francesco Lenzoni
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const params = new URLSearchParams(location.search);
+    if (params.get('download') === '1'){
+      const a = document.createElement('a'); a.href = 'resume.pdf'; a.download = ''; document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    }
+  </script>
+</body>
+</html>
